@@ -8,15 +8,20 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
+The game looked normal to me, the instructions and player input was simple to follow and interact with. I could understand that this is a guessing game and my range was between 1 to 100.
+
+The hints did appear backwards during every input and it claimed I had no more attempts when I had a few left to go. The game also allowed me to choose 0 as an input when it claimed range options are between 1 to 100.
+
+
 **Bug Reproduction Log**
 
 Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| 0 | "Not allowed" | "Go lower" | N/A |
+| -1 | "Not allowed" | "Go lower" | N/A |
+| 500 | "Not allowed" | "Go lower" | N/A |
 
 ---
 
