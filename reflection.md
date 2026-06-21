@@ -56,7 +56,7 @@ I tried to follow the directions and used pytest but Claude's tests ran fine and
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-
+  Streamlit is a way for the website to run and play the game we created.
 ---
 
 ## 5. Looking ahead: your developer habits
@@ -65,3 +65,5 @@ I tried to follow the directions and used pytest but Claude's tests ran fine and
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+I need to AI to fully explain its reasoning and steps, especially when it comes to testing. I have coded for a long time and have a perspective on how things are built, but that is not true for test files. I could not correct as well as I could for normal code. To help me learn and for the AI to slow down, is to use the AI to explain itself step by step. It should not edit without my permission first.

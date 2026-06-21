@@ -25,19 +25,20 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [This is a guess the number game with your range being 1 to 100 ] Describe the game's purpose.
+- [The hints did appear backwards during every input and it claimed I had no more attempts when I had a few left to go. The game also allowed me to choose 0 as an input when it claimed range options are between 1 to 100.
+ ] Detail which bugs you found.
+- [Fixed attempts made bug and the range bug ] Explain what fixes you applied.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. User enters a guess of 0
+2. Game returns "Too Low"
+3. User enters a guess of 7 → "Too Low"
+4. Score updates correctly after each guess
+5. Game ends after the correct guess
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
