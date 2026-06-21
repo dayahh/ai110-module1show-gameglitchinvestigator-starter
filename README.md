@@ -25,10 +25,9 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [This is a guess the number game with your range being 1 to 100 ] Describe the game's purpose.
-- [The hints did appear backwards during every input and it claimed I had no more attempts when I had a few left to go. The game also allowed me to choose 0 as an input when it claimed range options are between 1 to 100.
- ] Detail which bugs you found.
-- [Fixed attempts made bug and the range bug ] Explain what fixes you applied.
+- [This is a "guess the number game" with your range being 1 to 100 ] Describe the game's purpose.
+- [The hints did appear backwards during every input and it claimed I had no more attempts when I had a few left to go. The game also allowed me to choose 0 as an input when it claimed range options are between 1 to 100.] Detail which bugs you found.
+- [Fixed the "attempts made" bug and the "range" bug. Support and refactoring was done through Claude with my supervision. ] Explain what fixes you applied.
 
 ## 📸 Demo Walkthrough
 
