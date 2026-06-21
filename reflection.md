@@ -31,6 +31,11 @@ Document at least 3 bugs you found. Add rows as needed.
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
+I used Claude for this project.
+
+One example of AI suggestion is that I needed to know why my game's attempts field left me with one less attempt than it stated on my very first game. The issue came with the variable not starting off with the correct value on the first game, but all other games are correct. So through Claude's callout of that logic, it reccomended using the value 0 and not 1, and through testing that option, I decided to stick with that advice. I tested this option by replaying the game, and using all my attemps. I was able to see that I could finally correctly get locked out of the game after all attempts were used.
+
+A second example of AI suggestion that was incorrect was when I needed to fix the game's range input verification.
 ---
 
 ## 3. Debugging and testing your fixes
@@ -39,6 +44,10 @@ Document at least 3 bugs you found. Add rows as needed.
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
+For the attempt related bug:
+I tested this option by replaying the game, and using all my attemps. I was able to see that I could finally correctly get locked out of the game after all attempts were used.
+
+For the range bug:
 
 ---
 

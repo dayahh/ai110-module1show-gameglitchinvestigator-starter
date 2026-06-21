@@ -10,7 +10,7 @@ def get_range_for_difficulty(difficulty: str):
         return 1, 50
     return 1, 100
 
-
+# FIXME: Logic breaks here the range is not correct
 def parse_guess(raw: str):
     if raw is None:
         return False, None, "Enter a guess."
@@ -92,8 +92,11 @@ st.sidebar.caption(f"Attempts allowed: {attempt_limit}")
 if "secret" not in st.session_state:
     st.session_state.secret = random.randint(low, high)
 
+#FIX: Updated the attempt limit logic for the very first game
+# it loaded the amount of attempts as 0 and then when
+# I made my first guess it said I had no attempts left
 if "attempts" not in st.session_state:
-    st.session_state.attempts = 1
+    st.session_state.attempts = 0
 
 if "score" not in st.session_state:
     st.session_state.score = 0
@@ -143,7 +146,8 @@ if st.session_state.status != "playing":
     else:
         st.error("Game over. Start a new game to try again.")
     st.stop()
-
+# FIXME: Logic breaks here attempts claimed I
+# had no more attempts when I had a few left to go
 if submit:
     st.session_state.attempts += 1
 
