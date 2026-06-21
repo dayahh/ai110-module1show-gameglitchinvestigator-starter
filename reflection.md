@@ -35,7 +35,7 @@ I used Claude for this project.
 
 One example of AI suggestion is that I needed to know why my game's attempts field left me with one less attempt than it stated on my very first game. The issue came with the variable not starting off with the correct value on the first game, but all other games are correct. So through Claude's callout of that logic, it reccomended using the value 0 and not 1, and through testing that option, I decided to stick with that advice. I tested this option by replaying the game, and using all my attemps. I was able to see that I could finally correctly get locked out of the game after all attempts were used.
 
-A second example of AI suggestion that was incorrect was when I needed to fix the game's range input verification.
+A second example of AI suggestion that was incorrect was when I needed to fix the game's range input verification. The AI suggestion was fine and it worked as I tested it myself by reloading the page. I could correctly guess where the issue was and there were only two line fixes within the function. The issues came when I needed to create a test for this specific function and its changes.
 ---
 
 ## 3. Debugging and testing your fixes
@@ -48,6 +48,8 @@ For the attempt related bug:
 I tested this option by replaying the game, and using all my attemps. I was able to see that I could finally correctly get locked out of the game after all attempts were used.
 
 For the range bug:
+Creating a test file was difficult as I don't normally use test files at work.
+I tried to follow the directions and used pytest but Claude's tests ran fine and the other tests errored. AI was not very helpful as I did not have a point of view of how to fix this issue.
 
 ---
 
